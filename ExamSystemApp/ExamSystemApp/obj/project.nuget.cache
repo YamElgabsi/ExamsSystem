@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jd9V1SrXG3knFZ2IFYxoUMg01vUOTWtJfJhvferV/s7lnRQuQbict7nFzwIq8aJTp+Lc8Ru2WtTiGKMj8ptvbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YamEl\\source\\repos\\CDHSRP FINAL PROJECT\\ExamSystemApp\\ExamSystemApp\\ExamSystemApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YamEl\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\YamEl\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\YamEl\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

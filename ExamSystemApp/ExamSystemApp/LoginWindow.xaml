@@ -1,0 +1,42 @@
+﻿<Window x:Class="ExamSystemApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamSystemApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="600"
+        MinWidth="1000"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="64*"/>
+            <RowDefinition Height="68*"/>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+        <Label Name="navbarLBL" Content="Exams System" Padding="10" FontSize="15" Background="LightBlue" Grid.ColumnSpan="2"/>
+
+        <Label Name="SignLBL" Content="Sign in" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="30" Grid.Row="1"  Grid.ColumnSpan="2"/>
+
+
+        <Label Name="userIdLBL" Content="ID:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Grid.Row="2"/>
+        <TextBox Name="userIdTB" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" Height="25" Grid.Row="2" Grid.Column="1"/>
+
+        <Label Name="userPasswordLBL" Content="Password:" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Grid.Row="3"/>
+        <TextBox Name="userPasswordTB" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" Height="25" Grid.Row="3" Grid.Column="1"/>
+
+        <TextBlock x:Name="errorMessageTB" Text="" TextWrapping="Wrap"  HorizontalAlignment="Right" Height="70" Width="300" Foreground="Red" Grid.Row="4"  />
+
+
+        <Button Name="signinBTN" Content="Sign in" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="100" Click="signinBTN_Click" Grid.Row="4" Grid.Column="1" />
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\bin\Release\net6.0\ExamSystem.ClassLibary.deps.json
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\bin\Release\net6.0\ExamSystem.ClassLibary.dll
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\bin\Release\net6.0\ExamSystem.ClassLibary.pdb
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.csproj.AssemblyReference.cache
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.AssemblyInfoInputs.cache
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.AssemblyInfo.cs
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.csproj.CoreCompileInputs.cache
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.dll
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\refint\ExamSystem.ClassLibary.dll
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ExamSystem.ClassLibary.pdb
+C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystem\ExamSystem.ClassLibary\obj\Release\net6.0\ref\ExamSystem.ClassLibary.dll

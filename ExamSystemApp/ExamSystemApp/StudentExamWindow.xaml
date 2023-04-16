@@ -1,0 +1,56 @@
+﻿<Window x:Class="ExamSystemApp.StudentExamWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamSystemApp"
+        mc:Ignorable="d"
+        Title="StudentExamWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="600"
+        MinWidth="1000"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"  />
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Name="InnerGrid" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"  />
+                <RowDefinition Height="auto"  />
+                <RowDefinition Height="auto"  />
+                <RowDefinition Height="*"  />
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="countdownText" FontSize="30" />
+
+
+            <Button Name="btnSubmit"  Content="Submit"   Grid.Row="2" Click="btnSubmit_Click"   ></Button>
+            <ListBox Background="WhiteSmoke" Grid.Row="3"  Margin="0"    VerticalAlignment="Stretch"  Name="listBoxQuestions" SelectionChanged="listBoxQuestions_SelectionChanged" />
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+
+            <Label FontSize="15" Margin="10"  Grid.Column="0"  Name="lblQuestion" Content="Question:"  />
+            <TextBox Margin="10"  Background="LightGray" Name="QuestionTB"  Grid.Column="1"   />
+
+
+            <Label FontSize="15" Margin="10" Grid.Row="1" Grid.Column="0"  Name="lblAnswers" Content="Answers:"  />
+            <ListBox Name="answersLB" Grid.Column="1" Grid.Row="1" SelectionChanged="answersLB_SelectionChanged"/>
+
+
+
+            
+
+        </Grid>
+
+    </Grid>
+</Window>

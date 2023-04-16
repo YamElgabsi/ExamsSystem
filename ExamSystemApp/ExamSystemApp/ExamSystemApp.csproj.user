@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\YamEl\source\repos\CDHSRP FINAL PROJECT\ExamSystemApp\ExamSystemApp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="SolutionWindowe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StatsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentExamDetailsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentExamWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherNewExamDetailsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherNewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserManagerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SolutionWindowe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StatsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentExamDetailsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentExamWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherNewExamDetailsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherNewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserManagerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
